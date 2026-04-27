@@ -16,7 +16,7 @@ A provider integration requires **4 files** inside `src/providers/business/<Prov
 | `<providername>_payout.ts` | `BasePaymentInterface` | Execute payouts, fetch quotes, handle webhooks and status |
 
 > **Naming rule:** The folder name and file prefix must be **lowercase** and must match exactly what is stored in the `providers.filename` database column.  
-> `LoadProvider.business("sokin", "Payout")` loads `src/providers/business/sokin/sokin_payout.ts`.
+> `LoadProvider.businessKyc("sokin")` loads `src/providers/business/sokin/sokin_kyc.ts`.
 
 ---
 
